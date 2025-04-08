@@ -12,7 +12,7 @@ export class ArtistsComponent {
   musicService = inject(MusicService);
   artists$ = this.musicService.getArtists();
 
-  expanded: { [key: number]: boolean } = {}; 
+  expanded: { [key: number]: boolean } = {};
 
   toggleAlbums(artistId: number) {
     this.expanded[artistId] = !this.expanded[artistId];
