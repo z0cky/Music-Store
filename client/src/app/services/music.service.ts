@@ -17,4 +17,8 @@ export class MusicService {
   getProducts(): Observable<any> {
     return this.http.get(`${this.baseUrl}/products`);
   }
+
+  sendContactMessage(messageData: { email: string; subject: string; message: string }): Observable<any> {
+    return this.http.post(`${this.baseUrl}/contact`, messageData);
+  }
 }

@@ -20,7 +20,7 @@ if (fs.existsSync(dataPath)) {
 }
 
 app.get('/', (req, res) => {
-  res.send('<h1>Music Store API is running!</h1>');
+  res.send('<h1> Music Store API is running! </h1>');
 });
 
 
@@ -38,6 +38,12 @@ app.get('/products', (req, res) => {
   } else {
     res.status(500).json({ error: 'Products data not found' });
   }
+});
+
+app.post('/contact', (req, res) => {
+  const { email, subject, message } = req.body;
+  console.log('Received contact message:', req.body);
+  res.status(200).json({ message: 'Message received successfully' });
 });
 
 app.listen(PORT, () => {

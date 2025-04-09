@@ -1,30 +1,22 @@
-.contact-page {
+:host {
+    display: block;
     position: relative;
     min-height: 100vh;
-    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover; // ovde stavi svoj URL pozadinske slike
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .bg-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+    background: url('https://source.unsplash.com/1600x900/?music') no-repeat center center;
+    background-size: cover;
   }
   
   .contact-modal {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 2rem;
     border-radius: 8px;
-    width: 90%;
     max-width: 500px;
+    width: 90%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
   
