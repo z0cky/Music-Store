@@ -1,28 +1,77 @@
-body {
-    background-image: url('../b.jpg'); 
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat; 
-    min-height: 100vh; 
-  }
-  
-  .navbar {
-    border-radius: 15px;
-    margin: 0 20px; 
-    padding: 0 20px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .nav-link.active {
-    background-color: #f0f0f0;
-    border-radius: 6px;
-  }
-  
-  .nav-link:hover {
+.navbar {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.05);
-    border-radius: 6px;
   }
-  
+
+  .nav-link {
+    color: #ffffffcc;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    font-size: large;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+
+    &.active {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 0.5px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  .d-lg-block .nav-link {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    // background-color: rgba(255, 255, 255, 0.15);
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+      transform: translateY(-1px);
+    }
+
+    &.active {
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.logo-icon {
+  font-size: 1.85rem;
+  color: #ffffff;
+  // text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  // text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}

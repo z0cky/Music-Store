@@ -1,43 +1,48 @@
-<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-  <div class="container position-relative">
+<div class="container mt-3">
+  <nav class="navbar navbar-expand-lg glass-navbar shadow-sm py-3">
+    <div class="container-fluid position-relative">
 
-    <a class="navbar-brand fw-bold text-dark d-flex align-items-center me-auto" routerLink="/">
-      <span class="fs-4 me-2"></span> Music Store
-    </a>
+      <a class="navbar-brand fw-bold d-flex align-items-center me-auto" routerLink="/">
+        <i class="bi bi-music-note-list me-1 logo-icon"></i>
+        <span class="logo-text">Music Store</span>
+      </a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#mainNavbar"
-      aria-controls="mainNavbar"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
-      <ul class="navbar-nav text-center flex-column flex-lg-row gap-lg-4">
-        <li class="nav-item">
-          <a class="nav-link text-dark fw-medium" routerLink="/artists" routerLinkActive="active">Artists</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark fw-medium" routerLink="/products" routerLinkActive="active">Products</a>
-        </li>
-        <li class="nav-item d-lg-none">
-          <a class="nav-link text-dark fw-medium" routerLink="/contact" routerLinkActive="active">Contact</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav text-center flex-column flex-lg-row gap-lg-4">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/artists" routerLinkActive="active">Artists</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
+          </li>
+          <li class="nav-item d-lg-none">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-none d-lg-block ms-auto">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+      </div>
+
     </div>
-
-    <div class="d-none d-lg-block ms-auto">
-      <a class="nav-link text-dark fw-medium" routerLink="/contact" routerLinkActive="active">Contact</a>
-    </div>
-
-  </div>
-</nav>
+  </nav>
+</div>
 
 <div class="container mt-4">
   <router-outlet></router-outlet>
 </div>
+
+<app-footer></app-footer>

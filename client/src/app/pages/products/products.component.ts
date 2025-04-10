@@ -7,6 +7,7 @@ import { MusicService } from 'app/services/music.service';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './products.component.html',
+  styleUrls: ['./products.component.scss'],
 })
 export class ProductsComponent {
   musicService = inject(MusicService);

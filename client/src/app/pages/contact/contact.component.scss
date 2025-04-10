@@ -1,22 +1,100 @@
 :host {
-    display: block;
-    position: relative;
-    min-height: 100vh;
-    background: url('https://source.unsplash.com/1600x900/?music') no-repeat center center;
-    background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 3rem; 
+  background: url('https://source.unsplash.com/1600x900/?music') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.contact-modal {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  color: #212529;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: fadeInUp 0.6s ease-out both;
+
+  h2 {
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
   }
-  
-  .contact-modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 500px;
-    width: 90%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  label {
+    font-weight: 500;
+    color: #343a40;
   }
-  
+
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+    color: #212529;
+
+    &:hover {
+      border-color: #198754;
+      box-shadow: 0 0 0 0.1rem rgba(25, 135, 84, 0.2);
+    }
+
+    &:focus {
+      border-color: #198754;
+      box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.3);
+    }
+
+    &.is-invalid {
+      border-color: #dc3545;
+    }
+  }
+
+  .invalid-feedback {
+    font-size: 0.85rem;
+    color: #dc3545;
+  }
+
+  button.btn-success {
+    // opacity: 0.70;
+    transition: all 0.3s ease;
+    transform: scale(1);
+    border-radius: 0.5rem;
+    background: linear-gradient(45deg, #5326a7, #d63384); 
+    color: #fff;
+    border: none;
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 12px rgba(13, 110, 253, 0.3);
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -9,7 +9,7 @@
       "description": "A classic electric guitar with a maple neck and three single-coil pickups.",
       "manufacturer": "Fender",
       "rating": 4.8,
-      "image_url": "https://www.fender.com/es-ES/electric-guitars/stratocaster/fender-player-stratocaster-electric-guitar"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Squier_Fender_Stratocaster_guitar.jpg/960px-Squier_Fender_Stratocaster_guitar.jpg"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "description": "A high-quality acoustic guitar with a spruce top and nato back and sides.",
       "manufacturer": "Yamaha",
       "rating": 4.5,
-      "image_url": "https://www.yamaha.com/yamahav2/images/stock/guitar.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Yamaha_FGX04_Acoustic_Guitar_in_guitar_case_%282011-11-19_12.07.37_by_Loco_Steve%29.jpg/960px-Yamaha_FGX04_Acoustic_Guitar_in_guitar_case_%282011-11-19_12.07.37_by_Loco_Steve%29.jpg"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "description": "A budget-friendly audio interface with USB 2.0 connection, suitable for home studios.",
       "manufacturer": "Behringer",
       "rating": 4.3,
-      "image_url": "https://www.behringer.com/product_image.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NI_Audio_Kontrol_1_%28AK1%29.jpg/640px-NI_Audio_Kontrol_1_%28AK1%29.jpg"
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "description": "A top-of-the-line electric guitar with a mahogany body, maple top, and two humbucker pickups.",
       "manufacturer": "Gibson",
       "rating": 4.9,
-      "image_url": "https://www.gibson.com/LesPaulStandard.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Gibson_Les_Paul%28sg%29_1962.jpg/960px-Gibson_Les_Paul%28sg%29_1962.jpg"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "description": "A versatile 40-watt guitar amplifier with a classic Marshall sound.",
       "manufacturer": "Marshall",
       "rating": 4.7,
-      "image_url": "https://marshallamps.com/DSL40C.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Teisco_Professional_%281968%29_vacuum_tube_guitar_amplifier.jpg/640px-Teisco_Professional_%281968%29_vacuum_tube_guitar_amplifier.jpg"
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "description": "An electronic drum kit with advanced features and great sound for both beginners and pros.",
       "manufacturer": "Roland",
       "rating": 4.6,
-      "image_url": "https://www.roland.com/global/products/td-27/images/td-27kv_main.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Electronic_drum.jpg/640px-Electronic_drum.jpg"
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "description": "A compact and portable MIDI controller with 25 velocity-sensitive keys and pads.",
       "manufacturer": "Akai",
       "rating": 4.4,
-      "image_url": "https://www.akaipro.com/MPKMiniMK3.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Arturia_Minilab3.jpg/960px-Arturia_Minilab3.jpg"
     }
   ],
   "artists": [
@@ -109,7 +109,7 @@
           "genre": "Rock"
         }
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jimi_Hendrix_1968.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Jimi_Hendrix_1968.jpg"
     },
     {
       "artist_id": 2,
@@ -141,7 +141,7 @@
           "genre": "Rock"
         }
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Beatles_in_1967.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Beatles_wax_dummies.jpg"
     },
     {
       "artist_id": 3,
@@ -167,7 +167,7 @@
           "genre": "Rock"
         }
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Led_Zeppelin_1973.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Led_Zeppelin_acoustic_1973.jpg/960px-Led_Zeppelin_acoustic_1973.jpg"
     },
     {
       "artist_id": 4,
@@ -193,7 +193,7 @@
           "genre": "Rock"
         }
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Queen_in_1977.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Queen_maradona.jpg/960px-Queen_maradona.jpg"
     }
   ]
 }
