@@ -17,7 +17,7 @@
 - **Backend**: Node.js, Express, TypeScript
 - **Data**: Static JSON file (no database)
 
----
+
 ## How to Run the Project
 
  1. Clone the repository
@@ -39,5 +39,7 @@ cd ../client
 npm install
 ng serve
 ```
+## Screenshot (Desktop and Mobile version)
+![](https://github.com/z0cky/Music-Store/blob/main/client/src/assets/ss.png)
 
 
