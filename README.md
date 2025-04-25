@@ -1,4 +1,4 @@
-# 🎧 Music Store
+# 🎧 Music Store (ongoing project)
 
 **Music Store** is a web application developed to provide users with an intuitive and efficient platform for browsing music instruments and artists' collections.
 
