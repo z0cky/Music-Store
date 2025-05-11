@@ -15,7 +15,7 @@
 
 - **Frontend**: Angular 19.2.6, TypeScript, SCSS, Bootstrap
 - **Backend**: Node.js, Express, TypeScript
-- **Data**: Static JSON file (no database)
+- **Data**: MongoDB
 
 
 ## How to Run the Project
